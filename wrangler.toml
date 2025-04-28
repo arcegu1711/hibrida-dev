@@ -1,0 +1,11 @@
+name = "cloud-cost-analyzer"
+compatibility_date = "2023-12-01"
+
+[build]
+command = "npm run build"
+
+[site]
+bucket = ".next/static"
+
+[env.production]
+pages_build_output_dir = ".vercel/output/static"

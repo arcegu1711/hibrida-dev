@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    // Mantenha as configurações existentes e adicione/modifique estas:
+    "skipLibCheck": true,
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
